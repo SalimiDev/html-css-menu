@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+ul{
+    width: 100%;
+    background-color: #23354B;
+    margin-top: 0; 
+    padding: 0; 
+}
+li{
+    display: inline-block;
+    border-right: 0.1px #365670 dotted;
+    padding: 14px;
+    color: #CCCCCC;
+    font:11px sans-serif; 
+    cursor: pointer; 
+}
+li:first-child{
+    color: white;
+    background-color: #009FE1;
+}
+li:hover{
+color: rgb(255, 255, 255);
+}
+li.home:hover{
+    background-color:#009de1d5 ;
+}
+#double-down{
+    color: white;
+    font-size: 10px;
+}
+
+
